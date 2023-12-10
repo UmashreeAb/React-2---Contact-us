@@ -2,7 +2,9 @@ import styles from './ContactHeader_module.css';
 
 const ContactHeader = () => {
   return (
-    <div className={'${styles.contact_section}'}>
+    <div 
+    className={`container ${styles.contact_section}`}>
+        
       <h1>CONTACT US</h1>
       <p>
       LET’S CONNECT: WE’RE HERE TO HELP, AND WE’D LOVE TO HEAR FROM YOU!
@@ -11,7 +13,7 @@ const ContactHeader = () => {
         EMAIL, OR SOCIAL MEDIA.{" "}
       </p>
     </div>
-  )
-}
+  );
+};
 
 export default ContactHeader;

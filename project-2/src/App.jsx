@@ -1,9 +1,7 @@
-import './App.css'
+import Navigation from './Components/Navigation/Navigation'
 import ContactHeader from './Components/ContactHeader/ContactHeader';
-import Navigation from './Components/Navigation'
 
 function App() {
-
  return ( 
   <div>
     <Navigation />
