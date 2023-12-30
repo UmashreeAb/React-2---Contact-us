@@ -1,4 +1,4 @@
-import StartGame from "./assets/Components/StartGame";
+import StartGame from "./Components/StartGame";
 
 function App() {
   return (

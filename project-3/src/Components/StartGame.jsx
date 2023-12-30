@@ -9,17 +9,18 @@ const StartGame = ({ toggle }) => {
       </div>
         <div className="content">
           <h1>Dice Game</h1>
-          <Button onclick={toggle}></Button>
+          <Button onclick={toggle}>Play now</Button>
         </div>
     </Container>
-  )
+  );
 }
 
 export default StartGame;
 
-const Container = styled.div``
+const Container = styled.div`
 max-width: 1180px;
 height: 100px;
 display: flex;
 margin: 0 auto;
-align-items: 
+align-items: center;
+`; 
